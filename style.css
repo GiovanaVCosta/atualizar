@@ -1,0 +1,94 @@
+.poetsen-one-regular {
+    font-family: "Poetsen One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+
+body {
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+    font-family: "Poetsen One", sans-serif;
+    color: rgba(255, 137, 225, 0.706);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-align: center;
+    color: rgba(255, 137, 225, 0.706);
+    padding: 20px;
+}
+
+#contatos-list {
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.contact-item:last-child {
+    border-bottom: none;
+}
+
+.contact-photo {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.contact-details {
+    flex: 1;
+}
+
+.contact-actions button {
+    margin-left: 10px;
+}
+
+#contato-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 20px auto;
+    max-width: 500px;
+}
+
+#contato-form input,
+#contato-form button {
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+input{
+    width: 100px;
+    height: 20px;
+}
+
+#contato-form button {
+    border-radius: 10px;
+    background-color: #000000;
+    color: #fff;    
+    cursor: pointer;
+}
+
+
+#salvar-btn {
+    background-color: #007bff;
+}
+
+#salvar-btn:hover {
+    background-color: #0056b3;
+}
